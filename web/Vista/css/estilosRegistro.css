@@ -1,0 +1,234 @@
+body {
+    background-color: #1c1c1c; /* Fondo oscuro */
+    color: #f0f0f0; /* Texto claro */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura completa de la ventana para centrar verticalmente */
+}
+
+.container {
+    background-image: url('../imagenes/login/cine.jpg'); /* Ajusta la ruta si es necesario */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; /* Asegúrate de que el contenedor tenga tamaño */
+    height: 100vh; /* Asegúrate de que el contenedor tenga tamaño */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+    padding: 20px;
+}
+
+h1 {
+    color: #ffffff; /* Color blanco para el título */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #000; /* Sombra para darle efecto cinematográfico */
+    text-align: center; /* Centrar el título */
+}
+
+.card {
+    background-color: #333; /* Fondo gris oscuro para el formulario */
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para darle profundidad */
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.card-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente los elementos */
+    padding: 20px;
+}
+
+label {
+    color: #f0f0f0; /* Color del texto de las etiquetas */
+    font-family: 'Georgia', serif; /* Fuente más formal */
+    font-size: 1.2em; /* Tamaño de letra más grande */
+    margin-bottom: 10px; /* Espacio debajo de cada etiqueta */
+}
+
+.form-control {
+    background-color: #222; /* Fondo oscuro para inputs */
+    border: 1px solid #444; /* Borde oscuro */
+    color: #f0f0f0; /* Texto claro en inputs */
+    margin-bottom: 15px; /* Espacio entre los campos de entrada */
+    padding: 10px; /* Espacio interno para los inputs */
+    width: 100%; /* Asegurar que los inputs tomen el ancho completo */
+    max-width: 500px; /* Limitar el ancho máximo */
+}
+
+.form-control:focus {
+    border-color: #e50914; /* Borde rojo cuando el input está enfocado */
+    box-shadow: 0 0 5px rgba(229, 9, 20, 0.5); /* Sombra roja */
+    outline: none; /* Eliminar el borde por defecto del navegador */
+}
+
+.btn-primary {
+    background-color: #e50914; /* Botón rojo brillante */
+    border: none;
+    color: #fff; /* Texto blanco */
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    padding: 10px 20px;
+}
+
+.btn-primary:hover {
+    background-color: #b20710; /* Oscurecer el botón al pasar el ratón */
+}
+
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .card {
+        width: 90%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .card {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .form-control {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding-top: 20px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .card {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .form-control {
+        max-width: 100%;
+    }
+
+    label {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    .card {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .form-control {
+        max-width: 100%;
+    }
+
+    label {
+        font-size: 0.9em;
+    }
+
+    .btn-primary {
+        padding: 8px 16px;
+        font-size: 0.9em;
+    }
+}
+
+.formulario_grupo {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.formulario_grupo i {
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    font-size: 1.5em;
+    visibility: hidden;
+}
+
+.formulario_grupo-correcto i {
+    color: green;
+    visibility: visible;
+}
+
+.formulario_grupo-incorrecto i {
+    color: red;
+    visibility: visible;
+}
+
+.formulario_input-error {
+    display: none;
+    color: red;
+    font-size: 0.875em;
+}
+
+.formulario_input-error-activo {
+    display: block;
+}
+
+.formulario_mensaje {
+    display: none;
+    color: red;
+    margin-top: 10px;
+}
+
+.formulario_mensaje-activo {
+    display: block;
+}
+
+.formulario_mensaje-exito {
+    display: none;
+    color: green;
+    margin-top: 10px;
+}
+
+.formulario_mensaje-exito-activo {
+    display: block;
+}
+
+.formulario_grupo {
+    position: relative;
+}
+
+.formulario_input-error {
+    display: none;
+    color: red;
+    font-size: 0.875em;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.formulario_grupo.correcto .formulario_input-error {
+    display: none;
+}
+
+.formulario_grupo.incorrecto .formulario_input-error {
+    display: block;
+}

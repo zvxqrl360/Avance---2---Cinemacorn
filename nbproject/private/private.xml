@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/CINEMARCORN/web/Vista/js/mainRegistro.js</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/CINEMARCORN/web/Vista/Promociones.jsp</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/CINEMARCORN/src/java/Modelo/usuarios.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/CINEMARCORN/src/java/Controlador/controlador_usuario.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/CINEMARCORN/web/Vista/Admin.jsp</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/CINEMARCORN/src/java/Controlador/registro_servlet.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/CINEMARCORN/src/java/Conexion/conexion.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/CINEMARCORN/src/conf/persistence.xml</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/CINEMARCORN/src/java/Controlador/controlador_registro.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/CINEMARCORN/web/Vista/js/mainLogin.js</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/CINEMARCORN/web/META-INF/context.xml</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/CINEMARCORN/src/java/DAO/usuariosJpaController.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/CINEMARCORN/src/java/Controlador/eliminar_user.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/CINEMARCORN/src/java/Modelo/Metodos.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/CINEMARCORN/web/Vista/Registro.jsp</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/CINEMARCORN/src/java/Controlador/editar_user.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/CINEMARCORN/src/java/DAO/control_persistencia_usuario.java</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/CINEMARCORN/web/index.jsp</file>
+            <file>file:/C:/Users/USER/Documents/NetBeansProjects/CINEMARCORN/web/Vista/Login.jsp</file>
+        </group>
+    </open-files>
+</project-private>

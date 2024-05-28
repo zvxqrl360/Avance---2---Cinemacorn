@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>editar_user</servlet-name>
+        <servlet-class>Controlador.editar_user</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>eliminar_user</servlet-name>
+        <servlet-class>Controlador.eliminar_user</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>lector</servlet-name>
+        <servlet-class>Controlador.lector</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>editar_user</servlet-name>
+        <url-pattern>/editar_user</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>eliminar_user</servlet-name>
+        <url-pattern>/eliminar_user</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>lector</servlet-name>
+        <url-pattern>/lector</url-pattern>
+    </servlet-mapping>
+</web-app>
